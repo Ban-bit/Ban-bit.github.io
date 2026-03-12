@@ -1,0 +1,66 @@
+/* 全局基础样式 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
+  color: #2d3748;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  background-color: #ffffff;
+}
+
+/* 标题样式 */
+h1 {
+  color: #2b6cb0;
+  font-size: 2.2rem;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  color: #2c5282;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* 导航栏样式 */
+#quarto-header nav {
+  background-color: #f7fafc;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+}
+
+#quarto-header nav a {
+  color: #2b6cb0;
+  text-decoration: none;
+  margin-right: 1.2rem;
+  font-weight: 500;
+}
+
+#quarto-header nav a:hover {
+  text-decoration: underline;
+  color: #2c5282;
+}
+
+/* 列表样式 */
+ul {
+  padding-left: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* 页脚样式 */
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+  color: #718096;
+  font-size: 0.9rem;
+  text-align: center;
+}
